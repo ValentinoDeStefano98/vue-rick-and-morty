@@ -1,6 +1,11 @@
 <template>
   <div>
-    <HeaderComp/>
+    <HeaderComp msg="sono il titolo dell'header" />
+
+  <div class="container">
+    <AvatarsComp/>
+  </div>
+    
   </div>
 </template>
 
@@ -9,11 +14,13 @@ import "bootstrap"
 
 //components
 import HeaderComp from './components/HeaderComp.vue'
+import AvatarsComp from './components/AvatarsComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderComp
+    HeaderComp,
+    AvatarsComp
   }
 }
 </script>
@@ -30,4 +37,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
