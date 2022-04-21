@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HeaderComp msg="sono il titolo dell'header" />
+    <HeaderComp msg="Rick and Morty app" />
 
   <div class="container">
     <AvatarsComp/>
